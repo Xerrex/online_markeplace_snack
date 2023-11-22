@@ -1,5 +1,5 @@
 """
-URL configuration for core_mkt project.
+URL configuration for project_core project.
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/4.2/topics/http/urls/
@@ -16,7 +16,10 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+import core_app.views as core_app_views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('', core_app_views.index, name='index'),
+    path('contact/', core_app_views.contact, name='contact')
 ]
