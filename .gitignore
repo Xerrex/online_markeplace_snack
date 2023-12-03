@@ -14,4 +14,4 @@ db.sqlite3-journal
 # Env
 venv/
 .env
-media/
+media/item_images/
