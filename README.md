@@ -7,5 +7,6 @@
 * python manage.py startapp core_app
 * python manage.py startapp mkt_item
 * python manage.py startapp dashboard
+* python manage.py startapp conversation
 * python manage.py makemigrations
 * python manage.py migrate

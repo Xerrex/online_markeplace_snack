@@ -39,7 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'core_app',
     'mkt_item',
-    'dashboard'
+    'dashboard',
+    'conversation'
 ]
 
 MIDDLEWARE = [
